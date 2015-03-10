@@ -2,6 +2,8 @@
 <manifest>
   <remote  name="aosp"
            fetch=".." />
+  <remote  name="github"
+           fetch=".." />
   <default revision="refs/tags/android-5.1.0_r1"
            remote="aosp"
            sync-j="4" />
